@@ -1,0 +1,125 @@
+body {
+  background-image: url("D:/AI&ML-IBM/New folder/static/images/AI.jpg");
+  background:linear-gradient(120deg,#001C30,#176B87);
+}
+.img-preview {
+  width: 256px;
+  height: 256px;
+  position: relative;
+  border: 5px solid #f8f8f8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.img-preview > div {
+  width: 100%;
+  height: 100%;
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.upload-label {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #39d2b4;
+  color: #fff;
+  font-size: 1em;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.upload-label:hover {
+  background: #34495e;
+  color: #39d2b4;
+}
+
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+div.col-sm-6.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin-bottom: 10px;
+}
+.retino {
+  height: 100%;
+  width: 70%;
+  border-radius: 15%;
+  position: absolute;
+  top: 5%;
+  left: 120%;
+  margin-left: 200px;
+  box-sizing: border-box;
+  box-shadow: 5px 10px #888888;
+}
+.info {
+  font-family: Times New Roman;
+  font-size: larger;
+  margin-left: 80px;
+  color: antiquewhite;
+}
+.container2 {
+  position: absolute;
+  margin-top: 60px;
+}
+.nv{
+    margin-left: 100px;
+}
+#up1{
+  display: flex;
+  flex-wrap: row;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    margin-left: 500px;
+}
+h3,h4,h1{
+  color: #39d2b4;
+}
+h3{
+  margin-left: 80px;
+}
+#btn1{
+  margin-right: 20px;
+  border-radius: 18%;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+#btn2{
+  margin-right: 20px;
+  border-radius: 18%;
+  margin-left: 60px;
+  margin-top: 15px;
+  background-color:white;color:cyan
+}
+#btn1:hover{
+  background-color: antiquewhite;
+  color:#39d2b4
+}
+#btn2:hover{
+  background-color: #39d2b4;
+  color: antiquewhite;
+}
